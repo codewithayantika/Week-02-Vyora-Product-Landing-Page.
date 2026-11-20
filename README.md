@@ -1,67 +1,60 @@
-# Week-02-Vyora-Product-Landing-Page.
-# VYORA — Pulse One Smartwatch Landing Page
+# VYORA Pulse One — Responsive Smartwatch Product Landing Page
 
-## About the Project
-VYORA is a responsive product landing page designed for a fictional smartwatch brand. The website introduces the VYORA Pulse One smartwatch through a modern, premium, dark-themed interface.
+**Week 02 Minor Project | Web Development**
 
-The landing page is designed to provide a realistic shopping experience by showcasing product colours, features, benefits, customer reviews, and a call-to-action section.
+VYORA Pulse One is a fictional smartwatch brand storefront concept built as a student front-end project. It uses a dark charcoal theme with violet/lavender highlights and peach accents, plus product colour variants such as black, ocean blue, forest green, rose peach, lavender, and silver.
 
-This project was created as part of the **Week 02 Web Development Minor Project – Responsive Product Landing Page**.
+## Pages / sections included
+This assignment is a single-page product landing page with responsive navigation that links to each section:
 
-## Objectives
-- Learn and apply CSS3 styling concepts.
-- Understand Flexbox and CSS Grid layouts.
-- Build a responsive website for different screen sizes.
-- Practice HTML5 semantic structure.
-- Create a clean and user-friendly product interface.
-- Use Git and GitHub for version control and project submission.
+- **Home / Hero:** brand intro, product headline and description, product visual, Shop and Explore CTAs
+- **Collection:** six watch colour editions with prices and demo Add-to-cart controls
+- **Features:** health tracking, activity modes, battery, water resistance, notifications, display
+- **Benefits / Why VYORA:** lifestyle positioning and key advantages
+- **Reviews:** three sample testimonials (fictional placeholder content)
+- **Buy / CTA:** starting price, discount display and colour-selection CTA
+- **Contact / Footer:** quick links, help links, email newsletter demo
 
-## Features
-- Premium dark-themed design.
-- Responsive navigation bar.
-- Hero section with smartwatch showcase.
-- Multiple smartwatch colour variations.
-- Product feature cards.
-- Benefits section.
-- Customer testimonials.
-- Product pricing and call-to-action.
-- Responsive layouts for mobile, tablet, and desktop.
-- Interactive elements using JavaScript.
+## Technologies
+- HTML5 semantic sections and navigation
+- CSS3 custom properties, gradients, responsive media queries, hover transitions
+- Flexbox for header, CTA and layout components
+- CSS Grid for product cards and feature cards
+- Tailwind CSS CDN included as an additional utility framework
+- Vanilla JavaScript for mobile navigation, demo cart counter/toast, and newsletter feedback
 
-## Product Highlights
-- Heart rate monitoring.
-- Activity and fitness tracking.
-- Multiple activity modes.
-- Smart notifications.
-- Water resistance.
-- Extended battery life.
+## Project files
+```
+vyora_pulse_one/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── assets/
+    └── vyora-watch-hero.png
+```
 
-## Technologies Used
-- **HTML5** – Structure and semantic content.
-- **CSS3** – Styling, animations, layouts, and responsiveness.
-- **Flexbox** – Flexible layout arrangement.
-- **CSS Grid** – Structured card and section layouts.
-- **Tailwind CSS** – Utility-first styling approach (where used).
-- **JavaScript** – Interactive functionality.
-- **Git** – Version control.
-- **GitHub** – Repository hosting and project sharing.
+## Run the website
+1. Download and extract the project ZIP.
+2. Open `index.html` in a modern browser.
+3. Internet connection is required for Tailwind CDN, Google Fonts, and the external lifestyle stock photograph. The site styling also includes custom CSS fallbacks.
 
-## How to Run the Project
-1. Download or clone the repository.
-2. Open the project folder in Visual Studio Code.
-3. Open `index.html` in a browser or use the Live Server extension.
-4. Explore the different sections of the landing page.
+## GitHub upload and GitHub Pages
+1. Create a public repository (example: `Week-02-VYORA-Pulse-One`).
+2. Upload **all extracted files and folders**, not just the ZIP. Keep `index.html` at repository root.
+3. Commit the files.
+4. Go to **Settings → Pages**.
+5. Under Build and deployment, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
+6. Wait for GitHub Pages to publish. The website URL will be shown on the Pages settings screen.
 
-## Responsive Design
-The website is designed to adapt to desktop, tablet, and mobile screen sizes using responsive CSS layouts and media queries.
+## Submission to Unlox Academy
+If the assignment asks for a GitHub repository, submit the repository URL. If it asks for a live website, submit the GitHub Pages URL after it is published.
 
-## Project Purpose
-This project demonstrates the fundamentals of front-end web development and the process of creating a responsive product landing page for an imaginary smartwatch brand.
+## Demo-only / fictional content
+VYORA is a fictional concept brand. Prices, discount, warranty, battery, water-resistance, specs, and testimonials are sample content only, not verified commercial claims. Add-to-cart and newsletter controls are front-end demos and do not place orders or send emails.
+
+## Photography
+The product visual is a locally bundled concept illustration. The lifestyle portrait uses a remote Unsplash image URL, so it needs internet access and may not load offline. The project does not generate or fabricate human photographs.
 
 ## Author
-**Ayantika Giri**
-
-GitHub: [@codewithayantika](https://github.com/codewithayantika)
-
-## License
-This project was created for educational purposes as part of a web development minor project.
+Student portfolio project.
